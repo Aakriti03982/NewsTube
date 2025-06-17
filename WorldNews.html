@@ -1,0 +1,82 @@
+<!-- world.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>World News - News Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Reuse the same CSS -->
+</head>
+<body>
+
+   
+    <!-- Navigation Bar -->
+    <header>
+<!-- News Ticker -->
+<div class="news-ticker">
+  <div class="ticker-content" id="tickerContent">
+    <!-- JavaScript will insert headlines here -->
+  </div>
+</div>
+<button id="scrollTopBtn" style="position:fixed;bottom:20px;right:20px;display:none;">button</button>
+
+
+
+      <nav>
+        <div class="logo">
+          <table>
+            <tr>
+              <td><img src="logo.jpeg" alt="" width="40px" /></td>
+              <td>NEWSTube</td>
+            </tr>
+          </table>
+        </div>
+        <ul class="nav-links">
+          <li><a href="Home.htm" target="_blank">Home</a></li>
+          <li><a href="WorldNews.html" target="_blank">World</a></li>
+          <li><a href="#" target="_blank">Politics</a></li>
+          <li><a href="#" target="_blank">Technology</a></li>
+          <li><a href="#" target="_blank">Sports</a></li>
+          <li><a href="#" target="_blank">Entertainment</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <img src="world1.avif" alt="World News" class="hero-image">
+        <div class="hero-text">
+            <h1>World Headlines</h1>
+            <p>Stay informed with top global stories!</p>
+            <button class="cta-btn">Explore News</button>
+        </div>
+    </section>
+
+    <!-- World News Articles -->
+    <section class="Worldarticles">
+        <div class="Worldarticle">
+            <img src="world2.avif" alt="Global Event" class="article-image">
+            <h2>Global Climate Agreement Reached</h2>
+            <p>World leaders signed a historic agreement to tackle climate change and reduce emissions.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="article">
+            <img src="world3.avif" alt="Economic Update" class="article-image">
+            <h2>International Markets Rebound</h2>
+            <p>Markets around the globe showed strong recovery signs as economies stabilize.</p>
+            <a href="#">Read more</a>
+        </div>
+        <div class="article">
+            <img src="world4.webp" alt="Peace Talks" class="article-image">
+            <h2>Peace Talks Progress in Middle East</h2>
+            <p>Diplomatic efforts are gaining momentum with new initiatives from the United Nations.</p>
+            <a href="#">Read more</a>
+        </div>
+    </section>
+
+    
+
+<!--JavaScript-->
+<script src="world.js"></script>
+
+</body>
+</html>
